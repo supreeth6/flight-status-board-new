@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+td a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+.flight-detail {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flight-detail h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.flight-detail p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.flight-detail p strong {
+  color: #222;
+}
+
+.flight-detail .status {
+  font-weight: bold;
+  color: #d9534f; 
+}
+
+.flight-detail .status.on-time {
+  color: #5cb85c; 
+}
+
+.flight-detail .status.boarding {
+  color: #f0ad4e; 
+}
+
+.flight-detail .status.departed {
+  color: #0275d8; 
+}
